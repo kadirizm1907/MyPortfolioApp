@@ -6,12 +6,11 @@ const PrivateRouter = () => {
   const navigate = useNavigate()
 
   return (
-      <Card>
+      <Card id='cardPR' onClick={() => navigate("/")} >
         <Card.Img variant="top" src={back}/>
         <Card.Body>
-          <Card.Text onClick={() => navigate("/")} >
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <Card.Text id='textPR' >
+            HERE IS MY PORTFOLIO🌞🔥
           </Card.Text>
         </Card.Body>
       </Card>

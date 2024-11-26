@@ -14,7 +14,7 @@ const JsProjects = () => {
       <Row xs={1} sm={2} lg={3} xxl={4} className="g-3 m-1 bg-danger-subtle p-1 rounded-2">
         {filteredItems?.map(({ id, url, name, git, photo, type }) => (
           <Col key={id}>
-            <Card className="pb-5 bg-body-secondary">
+            <Card className="pb-5 bg-dark bg-opacity-10">
               <Card.Img src={photo && img} height={"350vh"} />
               <Card.Body>
                 <Card.Title>
