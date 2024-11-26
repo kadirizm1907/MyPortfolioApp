@@ -12,7 +12,7 @@ const About = () => {
         <p className=" about-text">
           Hello, I am Kadir. I was born in 1990 in Erzurum, one of the beautiful
           cities of Turkey. In the past, I had 8 years of teaching experience as a teacher
-          that added color to my life. After moving to the Netherlands, I
+          that added . After moving to the Netherlands, I
           started working in the IT sector to add a new color to my life. This
           sector was an area that I wanted to do passionately during my teaching
           years.
