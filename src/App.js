@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "./app.css"
 import RaectProjects from "./components/RaectProjects";
 import HtmlCssProjects from "./components/HtmlCssProjects";
+import PrivateRouter from "./components/PrivateRouter";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
+      <PrivateRouter />
     </BrowserRouter>
   );
 }

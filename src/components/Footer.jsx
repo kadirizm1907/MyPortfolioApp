@@ -2,6 +2,7 @@
 import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
 import { FaGithub, FaDiscord } from "react-icons/fa";
 
+
 function Footer() {
   return (
     <div style={{ marginTop: "10rem" }}>
@@ -44,7 +45,8 @@ function Footer() {
         </div>
       </nav>
     </div>
+  
   );
-}
+}  
 
 export default Footer;

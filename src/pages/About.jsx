@@ -1,12 +1,15 @@
 import Image from "react-bootstrap/Image";
 import me from "../img/me.jpeg";
 import { Container } from "react-bootstrap";
+import PrivateRouter from "../components/PrivateRouter";
+
 
 const About = () => {
   return (
     <Container fluid className="text-center mt-5 pt-5 d-flex align-items-center justify-content-center display-6   ">
 
        <div className="text-center mt-5  ">
+        
      
         <legend><Image src={me} thumbnail width={250}></Image></legend>
         <p className=" about-text">
@@ -70,6 +73,7 @@ const About = () => {
       </div>
     </Container>
   );
+ 
 };
 
 export default About;
