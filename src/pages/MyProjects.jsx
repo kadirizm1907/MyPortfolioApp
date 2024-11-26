@@ -9,9 +9,9 @@ const MyProjects = () => {
             <div className='mt-5'>
                 <h1>SOME OF MY PROJECTS</h1>
             </div>
-            <Row className='container text-center mt-4'>
+            <Row className='container cursor text-center mt-4'>
                 <Col lg={4} md={4} sm={12}>
-                <div id='splash' className=' mt-2' onClick={() => navigate("js")}>JS</div>
+                <p id='splash' className=' pointer-event pe-auto mt-2' onClick={() => navigate("js")}>JS</p>
                 </Col>
                 <Col lg={4} md={4} sm={12}>
                 <div id='splash2' className=' mt-2' onClick={() => navigate("react")}>REACT</div>
