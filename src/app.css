@@ -1,0 +1,88 @@
+#navbarSupportedContent{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgb(35, 35, 34) 5%, rgba(0,0,0,1) 32%, rgba(64,73,138,1) 94%);
+  
+}
+.kadir{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgb(37, 37, 36) 5%, rgba(0,0,0,1) 32%, rgba(64,73,138,1) 94%);
+}
+body{
+    background-image: radial-gradient(circle, #8fb1af, #70a6ad, #5299b0, #3a8bb3, #347bb4, #2e80bd, #2685c7, #198ad0, #00a8e2, #00c4ed, #06e0f1, #5ffbf1);
+}
+.nav-item{
+    background: #000000;
+    background: radial-gradient(circle farthest-side at center center, #000000 0%, #D0D26D 0%, #4B78FF 60%, #49C3DE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+transition: opacity 1s ease 0s;
+
+
+     
+}
+.nav-item:hover{
+    opacity: 0.4;
+    transform: translateY(5%);
+
+}
+#footer-items a:hover{
+    transform: translateY(5%);
+}
+.about-text{
+    color: #121515;
+    font-weight: bold;
+    margin-top: 2rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px #121515; 
+    position: relative;
+    padding: 13px;
+    background-color: cadetblue;
+    opacity: 0.8;
+
+}
+.about-text a{
+    color: yellowgreen;
+}
+#images{
+    width: 70vw;
+    height: 70vh;
+}
+#splash{
+    
+    font-size: 1.2rem;
+    background-color:#ffffffd0;
+    border: 15px solid transparent;
+    padding: 4px;
+    border-image-source:url('https://www.w3schools.com/cssref/border.png');  
+    border-image-repeat: stretch;
+    border-image-slice: 10;
+    border-image-width: 3px;
+    border-image-outset: 5px 5px 5px 5px;
+}
+#splash2{
+    
+    font-size: 2rem;
+    font-size: 1.2rem;
+    background-color:#ffffffd0;
+    border: 15px solid transparent;
+    padding: 4px;
+    border-image-source:url('https://www.w3schools.com/cssref/border.png');  
+    border-image-repeat: stretch;
+    border-image-slice: 10;
+    border-image-width: 3px;
+    border-image-outset: 5px 5px 5px 5px;
+}
+#splash3{
+    
+    font-size: 1.2rem;
+    background-color:#ffffffd0;
+    border: 15px solid transparent;
+    padding: 4px;
+    border-image-source:url('https://www.w3schools.com/cssref/border.png');  
+    border-image-repeat: stretch;
+    border-image-slice: 10;
+    border-image-width: 3px;
+    border-image-outset: 5px 5px 5px 5px;
+}
