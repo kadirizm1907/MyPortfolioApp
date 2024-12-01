@@ -19,6 +19,7 @@
   );
 }
 body {
+    /* margin: 20px; */
   background-image: radial-gradient(
     circle,
     #8fb1af,
@@ -124,12 +125,21 @@ body {
   border-image-outset: 5px 5px 5px 5px;
 }
 #cardPR {
+  cursor: pointer;
   position: relative;
   text-align: center;
 }
 #textPR {
+
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-30%, -50%);
+  transform: translate(50%, 80%);
+}
+.Error{
+  animation: beat .70s infinite alternate;
+	transform-origin: center;
+}
+@keyframes beat{
+	to { transform: scale(.9); }
 }

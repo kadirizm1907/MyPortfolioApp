@@ -5,15 +5,13 @@ import { useNavigate } from "react-router-dom"
 const PrivateRouter = () => {
   const navigate = useNavigate()
 
-  return (
-      <Card id='cardPR' onClick={() => navigate("/")} >
-        <Card.Img variant="top" src={back}/>
-        <Card.Body>
-          <Card.Text id='textPR' >
-            HERE IS MY PORTFOLIO🌞🔥
-          </Card.Text>
-        </Card.Body>
-      </Card>
+  return (<>
+    <Card id='cardPR' onClick={() => navigate("/")} >
+      <Card.Img variant="top" src={back} />
+
+    </Card>
+  </>
+
   )
 }
 
