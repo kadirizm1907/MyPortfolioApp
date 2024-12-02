@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 // import logo from "../img/logo.png";
+
+import {logoutIcon } from "../helper/icons";
 import{ Container }from "react-bootstrap";
 import React, { useState, useEffect, useRef } from "react";
 
@@ -34,8 +36,7 @@ function Nav() {
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded={isOpen ? "true" : "false"}
-          aria-label="Toggle navigation"
-        >BTN
+          aria-label="Toggle navigation">BTN
         </button>
         <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
           id="navbarSupportedContent"
@@ -43,25 +44,30 @@ function Nav() {
         <div className="collapse navbar-collapse bg-primary rounded-2" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 me-2  mb-lg-0 display-6 p-1 text-uppercase fw-bolder " >
             <li className="nav-item ">
-              <Link to="/" className="nav-link text-white font-monospace m-1 pe-4 ps-4" aria-current="page">
+              <Link to="/dashboard" className="nav-link text-white font-monospace m-1 pe-4 ps-4" aria-current="page">
                 Home
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/myprojects" className="nav-link text-white font-monospace m-1 pe-4 ps-4" aria-current="page">
+              <Link to="/dashboard/myprojects" className="nav-link text-white font-monospace m-1 pe-4 ps-4" aria-current="page">
                 Projects
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/about" className="nav-link text-white font-monospace m-1 pe-4 ps-4" aria-current="page">
+              <Link to="/dashboard/about" className="nav-link text-white font-monospace m-1 pe-4 ps-4" aria-current="page">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link text-white font-monospace m-1 pe-4 ps-4" aria-current="page">
+              <Link to="/dashboard/contact" className="nav-link text-white font-monospace m-1 pe-4 ps-4" aria-current="page">
                 Contact
+              </Link>
+            </li>
+            <li className="nav-item ">
+              <Link to="/" className="nav-link text-danger font-monospace m-1 pe-4 ps-4" aria-current="page">
+              <span className="nav-item-logout">{logoutIcon}</span>
               </Link>
             </li>
           </ul>

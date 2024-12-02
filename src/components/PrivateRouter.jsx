@@ -1,18 +1,19 @@
-import Card from 'react-bootstrap/Card';
-import back from "../img/hexagon.png";
-import { useNavigate } from "react-router-dom"
+
+import { Navigate, Outlet } from "react-router-dom"
+import Nav from './Nav';
+import Footer from "./Footer";
 
 const PrivateRouter = () => {
-  const navigate = useNavigate()
+  const user = sessionStorage.getItem("user")
+  return user ? (
+    <>
+      <Nav />
+      <Footer />
+      <Outlet />
+    </>
+  ) : (
+    <Navigate to="/" />
+  );
+};
 
-  return (<>
-    <Card id='cardPR' onClick={() => navigate("/")} >
-      <Card.Img variant="top" src={back} />
-
-    </Card>
-  </>
-
-  )
-}
-
-export default PrivateRouter
+export default PrivateRouter;
