@@ -21,7 +21,7 @@ const Login = () => {
             <div class="loginCard">
                 <div class="header">
                     <span class="headerSpan"></span>
-                    <h1 class="headerTitle">Clarus Store</h1>
+                    <h1 class="headerTitle">MY PORTFOLIO WEBPAGE</h1>
                 </div>
                 <div class="subHeader">
                     <h3>SIGN IN</h3>

@@ -6,6 +6,7 @@ import{ Container }from "react-bootstrap";
 import React, { useState, useEffect, useRef } from "react";
 
 function Nav() {
+  
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
 

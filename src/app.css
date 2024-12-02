@@ -19,7 +19,7 @@
   );
 }
 body {
-    /* margin: 20px; */
+  /* margin: 20px; */
   background-image: radial-gradient(
     circle,
     #8fb1af,
@@ -51,10 +51,8 @@ body {
   transition: opacity 1s ease 0s;
 }
 .nav-item-logout {
-
   color: #f8f8f8;
   font-weight: bold;
-  
 }
 .gitUrl a {
   display: flex;
@@ -136,128 +134,137 @@ body {
   text-align: center;
 }
 #textPR {
-
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(50%, 80%);
 }
-.Error{
-  animation: beat .70s infinite alternate;
-	transform-origin: center;
+.Error {
+  animation: beat 0.7s infinite alternate;
+  transform-origin: center;
 }
-@keyframes beat{
-	to { transform: scale(.9); }
+@keyframes beat {
+  to {
+    transform: scale(0.9);
+  }
 }
+/* Log in styling here  */
 .loginDiv {
+  margin: 5rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .loginCard {
-  height: 500px;
-  width: calc(100% - 20px); 
-  max-width: 475px; 
-  background-color: white; 
-  border-radius: 20px; 
-  padding: 20px; 
+  height: auto;
+  width: calc(100% - 20px);
+  max-width: 475px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
-  text-align: center; 
+  justify-content: space-between;
+  text-align: center;
 }
 
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 8px; 
-  gap: 8px; 
+  margin-top: 8px;
+  gap: 8px;
 }
 
 .headerSpan {
-  width: 6px; 
-  height: 39px; 
-  background-color: #facc15; 
+  width: 6px;
+  height: 39px;
+  background-color: #facc15;
 }
 
 .headerTitle {
-  font-family: 'Montserrat', sans-serif; 
-  font-weight: 700; 
-  font-size: 22px; 
-  text-transform: uppercase; 
+  color: wheat;
+  border-radius: 15px;
+  background-color: #2685c7;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 640px) {
   .headerTitle {
-    font-size: 32px; 
+    font-size: 32px;
   }
 }
-
 .subHeader {
-  margin: 8px 0; 
+  margin: 8px 0;
 }
 
 .subHeader h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600; 
-  font-size: 22px; 
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
   text-transform: uppercase;
-  color: black; 
+  color: black;
 }
 
 .subHeader p {
-  font-family: 'Montserrat', sans-serif; 
-  color: #9ca3af; 
-  margin-top: 4px; 
+  color: wheat;
+  border-radius: 15px;
+  background-color: #2685c7;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 4px;
+  padding: 1rem;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  padding: 12px; 
-  gap: 20px; 
+  padding: 12px;
+  gap: 20px;
 }
 
 .formGroup {
   display: flex;
   flex-direction: column;
-  gap: 8px; 
+  gap: 8px;
 }
 
 .label {
-  font-family: 'Montserrat', sans-serif; 
-  color: #9ca3af; 
-  cursor: pointer; 
+  font-family: "Montserrat", sans-serif;
+  color: #9ca3af;
+  cursor: pointer;
 }
 
 .label:hover::after {
-  content: 'admin@aa.com'; 
-  color: black; 
-  padding-left: 12px; 
-  text-decoration: underline; 
+  content: "admin@aa.com";
+  color: black;
+  padding-left: 12px;
+  text-decoration: underline;
 }
 
 .input {
-  height: 44px; 
-  border: 1px solid #d1d5db; 
-  border-radius: 4px; 
-  padding: 0 12px; 
+  height: 44px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 0 12px;
 }
 
 .button {
-  background-color: #2563eb; 
-  height: 44px; 
-  font-family: 'Montserrat', sans-serif; 
-  color: white; 
-  text-transform: uppercase; 
-  border-radius: 4px; 
+  background-color: #2563eb;
+  height: 44px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 .button:hover {
-  opacity: 0.9; 
+  opacity: 0.9;
 }
 
 .resetLink {
@@ -268,15 +275,14 @@ body {
 }
 
 .resetText {
-  font-family: 'Montserrat', sans-serif; 
-  color: #9ca3af; 
+  font-family: "Montserrat", sans-serif;
+  color: #9ca3af;
 }
 
 .resetLink a {
-  color: #2563eb; 
-  font-size: 14px; 
-  font-weight: 500; 
-  text-decoration: underline; 
-  margin-left: 4px; 
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-left: 4px;
 }
-
