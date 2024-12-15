@@ -124,7 +124,7 @@ const projects = [
     id: 16,
     name: "Employe List",
     photo:"https://lh3.googleusercontent.com/pw/ABLVV87ElGWYmk2XjSm5e_QHFIqO5fFaEzeO0At8T9J1VUGycFDMUnLLPBS1YcV4J90_p0D3L_n1pDxSmp0AgmgboTcEwVmKvLRpcvPOeCVwF9q7inICriNt54Mc-pdGfcK-O0GayZxUVzMOenuTlbWHXRnqNPcedE1zraEqlxTaPdecTkeiuCU5gYeBqK_kQirYMHkE_lwKQppIkYeG5mzXxbrjo49uMcG_mlSzvjhGzweayyqSK94aq_N47Qu_n3WcB8aDt-fmBz3Rnb0O2v8Fz1_rkGeslk4wEHHavmvcxuLVXvtdsKbhP4bKdDTPc8vniZoB0zk1YqUhRLCU02dR8D11rYCcN2gWP8v50EEcTOnRmGF0g7QEa6Fc3H3qnGf8njFwd4qFdSPFImMXL4ywe2Um8UhnKbsmY7zG2vZNZlj4XOuSG7KIUhDJxHBzFQG4Tl8f7C7ORcdIZljfJHrLg7lviGIcp4fypDbHPhvndlFZg3RMTEW_tZFKEOdxQr1A_N_bshylgZJ8ulkhA5rpFG5Nmij09PzdiDXvQFlgULQpi7ayzhbPSwarabmnGWka376w5xO3sQ_W7nSVO4RFY_-9JGrDL66nZmUkIytQnTxFwGiNJsWuIRFwaJo_zTC8fUS1BfPPAMH_Kgil6ID5X1yhAbrpwejwDvZr4OORpBatnZA0kUTqeQDrq3ud6qKFIafYzaGYayaa5vAmTnr47d5DRjnKU4gL0TxmLtm7mSFGb2k8iy674FJCVJJvsH1pR9MWGcqGSXT0bgiFkIjE2PQMT_NT37I5GhDeJNsJ2tNPZ6_MqWU9kKRbyIYNFERD-ZInvhdgulxABXYh3BMXXnT907FgFcl7vKUnFsmNyDurdLAUY6DFW-Me5r8rmq_yTURnbaA0zP-yt49ITF27f_B3ieI=w1690-h869-s-no-gm?authuser=0",
-    type:"HTML,CSS,REACT,BOOTSTRAP,SASS",
+    type:"REACT,BOOTSTRAP,SASS",
     git:"https://github.com/kadirizm1907/react_projects/tree/main/ASSIGMENTS/employeList",
     url: "https://employe-list-sigma.vercel.app/",
   },
