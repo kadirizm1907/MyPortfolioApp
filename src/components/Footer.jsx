@@ -1,14 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
 import { FaGithub, FaDiscord } from "react-icons/fa";
+import { Container } from "react-bootstrap";
 
 
 function Footer() {
   return (
-    <div style={{ marginTop: "10rem" }}>
-      <nav className="justify-content-around m-2 fixed-bottom bg-primary rounded-2 d-flex align-items-center kadir">
-        <div className="text-light text-center ">
-          Created by Kadir Y.
+    <Container className="fixed-bottom p-0"  >
+      <nav className="justify-content-around flex-wrap container-fluid bg-opacity-50 bg-primary rounded-2 d-flex align-items-center kadir">
+        <div className="text-light text-center">
+          Created by Kadir Y. <br/>
           <span className="text-light opacity-50 ms-3">
             All rights reserved {new Date().getFullYear()}
           </span>
@@ -44,7 +45,7 @@ function Footer() {
           </a>
         </div>
       </nav>
-    </div>
+    </Container>
   
   );
 }  

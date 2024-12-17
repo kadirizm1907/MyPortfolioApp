@@ -3,8 +3,8 @@ import Carousel from "react-bootstrap/Carousel";
 import data from "../data.js"
 const Home = () => {
   return (
-    <div className=" mt-5 pt-5">
-      <Carousel className="text-center mt-5 d-flex align-items-center justify-content-center">
+    <div className=" mt-5 pt-5 mb-5">
+      <Carousel className="text-center mb-5 mt-5 d-flex align-items-center justify-content-center">
       {data.map((item) => (
         <Carousel.Item interval={2000} key={item.id} className="pb-4">
           <img id="images" src={item.url} alt="logo" className=" rounded-4 text-center "/>

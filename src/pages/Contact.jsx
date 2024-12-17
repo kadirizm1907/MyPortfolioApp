@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <div className=" mt-5 pt-5 d-flex align-items-center justify-content-center">
+    <div className=" mb-5 mt-5 pt-5 d-flex align-items-center justify-content-center">
       <div className="container container-sm">
         <h1 className="text-center mt-4">Send Email</h1>
         {isSent && <p className="text-center bg-success fw-bolder font-monospace w-25 align-items-center rounded-2">Your message has been sent ✔✔</p>}
@@ -69,7 +69,7 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="text-center">
+          <div className="text-center mb-5">
             <button type="submit" className="btn btn-success mb-4 fw-bolder font-monospace display-1 ">Send</button>
           </div>
         </form>

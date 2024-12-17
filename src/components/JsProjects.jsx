@@ -10,7 +10,7 @@ const JsProjects = () => {
   const filteredItems = projects.filter(project => project.type.toLocaleLowerCase().split(',').map(t => t.trim()).includes("javascript")
   );
   return (
-    <div className="text-center mt-5 pt-5 d-flex align-items-center justify-content-center ">
+    <div className="text-center mb-5 mt-5 pt-5 d-flex align-items-center justify-content-center ">
       <Row xs={1} sm={2} lg={3} xxl={4} className="g-3 m-1 bg-danger-subtle p-1 rounded-2">
         {filteredItems?.map(({ id, url, name, git, photo, type }) => (
           <Col key={id}>
